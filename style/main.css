@@ -394,7 +394,8 @@ hr {
     background: #66ff33; }
 	
   .tile.tile-144 .tile-inner {
-    background: #33ff33; }
+    background: #33ff33;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 0, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);}
 
   .tile.tile-super3 .tile-inner {
     background: #00ff00; }
@@ -427,12 +428,54 @@ hr {
     color: #776e65;
     background: #00ddff;
     box-shadow: 0 0 30px 10px rgba(0, 255, 255, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);}
+  .tile.tile-512 .tile-inner {
+    color: #776e65;
+    background: #00ccff;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 255, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);}
+  .tile.tile-1024 .tile-inner {
+    background: #00bbff;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 255, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 36px;}
+  .tile.tile-2048 .tile-inner {
+    background: #00aaff;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 255, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 36px;}
   .tile.tile-5 .tile-inner {
   color: #776e65;
     background: #ff99ff; }
   .tile.tile-10 .tile-inner {
-  color: #776e65;
     background: #cc99ff; }
+  .tile.tile-20 .tile-inner {
+    background: #9999ff; }
+  .tile.tile-40 .tile-inner {
+    background: #6699ff; }
+  .tile.tile-80 .tile-inner {
+    background: #3399ff; }
+  .tile.tile-15 .tile-inner {
+    background: #ff9999; }
+  .tile.tile-30 .tile-inner {
+    background: #cc9999; }
+  .tile.tile-60 .tile-inner {
+    background: #999999; }
+  .tile.tile-120 .tile-inner {
+    background: #669999;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 255, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);}
+  .tile.tile-240 .tile-inner {
+    background: #339999;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 255, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);}
+  .tile.tile-45 .tile-inner {
+    background: #ff9933; }
+  .tile.tile-90 .tile-inner {
+    background: #cc9933; }
+  .tile.tile-180 .tile-inner {
+    background: #999933;
+    box-shadow: 0 0 30px 10px rgba(255, 255, 0, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);}
+  .tile.tile-360 .tile-inner {
+    background: #669933; 
+    box-shadow: 0 0 30px 10px rgba(128, 255, 0, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);}
+  .tile.tile-720 .tile-inner {
+    background: #339933; 
+    box-shadow: 0 0 30px 10px rgba(0, 255, 0, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);}
 
   .tile .tile-inner {
     border-radius: 3px;
