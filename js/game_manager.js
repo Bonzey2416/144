@@ -1,6 +1,6 @@
 function GameManager(size, InputManager, Actuator, ScoreManager) {
 
-  this.size         = 16; // Size of the grid
+  this.size         = 6; // Size of the grid
   this.inputManager = new InputManager;
   this.scoreManager = new ScoreManager;
   this.actuator     = new Actuator;
