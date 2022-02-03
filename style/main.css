@@ -445,6 +445,9 @@ hr {
   .tile.tile-192 .tile-inner {
     background: #00ff99;
     box-shadow: 0 0 30px 10px rgba(0, 255, 153, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);}
+  .tile.tile-384 .tile-inner {
+    background: #00ee99;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 164, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);}
   .tile.tile-5 .tile-inner {
   color: #776e65;
     background: #ff99ff; }
@@ -481,6 +484,8 @@ hr {
   .tile.tile-720 .tile-inner {
     background: #339933; 
     box-shadow: 0 0 30px 10px rgba(0, 255, 0, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);}
+  .tile.tile-25 .tile-inner {
+    background: #ff33ff; }
 
   .tile .tile-inner {
     border-radius: 3px;
