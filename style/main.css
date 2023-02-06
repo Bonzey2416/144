@@ -448,6 +448,17 @@ hr {
   .tile.tile-384 .tile-inner {
     background: #00ee99;
     box-shadow: 0 0 30px 10px rgba(0, 255, 164, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);}
+  .tile.tile-768 .tile-inner {
+    background: #00dd99;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 175, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);}
+  .tile.tile-1536 .tile-inner {
+    background: #00cc99;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 186, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 36px;}
+  .tile.tile-3072 .tile-inner {
+    background: #00bb99;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 197, 0.55555), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 36px;}
   .tile.tile-5 .tile-inner {
   color: #776e65;
     background: #ff99ff; }
@@ -486,6 +497,11 @@ hr {
     box-shadow: 0 0 30px 10px rgba(0, 255, 0, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);}
   .tile.tile-25 .tile-inner {
     background: #ff33ff; }
+  .tile.tile-50 .tile-inner {
+    background: #cc33ff; }
+  .tile.tile-100 .tile-inner {
+    background: #9933ff;
+    box-shadow: 0 0 30px 10px rgba(128, 0, 255, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);}
 
   .tile .tile-inner {
     border-radius: 3px;
